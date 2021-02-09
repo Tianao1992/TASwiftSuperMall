@@ -1,0 +1,7 @@
+use_frameworks!
+target 'TASwiftSuperMall' do
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'Kingfisher'
+    pod 'KakaJSON'
+end

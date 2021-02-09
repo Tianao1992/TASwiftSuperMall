@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1322B92A25C1105A00E664D0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322B92925C1105A00E664D0 /* TabBar.swift */; };
+		1322B92D25C135AC00E664D0 /* HomeListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322B92C25C135AC00E664D0 /* HomeListModel.swift */; };
+		1322B93125C13BB200E664D0 /* HomeHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322B92F25C13BB200E664D0 /* HomeHeaderCollectionViewCell.swift */; };
+		1322B93225C13BB200E664D0 /* HomeHeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1322B93025C13BB200E664D0 /* HomeHeaderCollectionViewCell.xib */; };
+		13301FD825C0112300EFDE25 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13301FD725C0112300EFDE25 /* API.swift */; };
+		13301FDC25C0133500EFDE25 /* TANetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13301FDB25C0133500EFDE25 /* TANetWorkTool.swift */; };
+		13301FDF25C0149800EFDE25 /* TANetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13301FDE25C0149800EFDE25 /* TANetworkingError.swift */; };
+		13301FE225C01A0000EFDE25 /* TAMultipartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13301FE125C01A0000EFDE25 /* TAMultipartData.swift */; };
+		1331E55B25C00CA100887660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1331E55A25C00CA100887660 /* LaunchScreen.storyboard */; };
+		134F1CF225C1040000ED7112 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F1CF125C1040000ED7112 /* TabBarViewController.swift */; };
+		134F1CF625C104F700ED7112 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F1CF525C104F700ED7112 /* NavigationViewController.swift */; };
+		134F1D0125C10C2300ED7112 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F1D0025C10C2300ED7112 /* HomeViewController.swift */; };
+		134F1D0525C10C4300ED7112 /* CategroyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F1D0425C10C4300ED7112 /* CategroyViewController.swift */; };
+		134F1D0A25C10C8300ED7112 /* ShopCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F1D0925C10C8300ED7112 /* ShopCartViewController.swift */; };
+		134F1D0E25C10C9900ED7112 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F1D0D25C10C9900ED7112 /* ProfileViewController.swift */; };
+		1375867E25BFE73F00A9E4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1375867D25BFE73F00A9E4A1 /* AppDelegate.swift */; };
+		1375868025BFE73F00A9E4A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1375867F25BFE73F00A9E4A1 /* SceneDelegate.swift */; };
+		1375868225BFE73F00A9E4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1375868125BFE73F00A9E4A1 /* ViewController.swift */; };
+		1375868525BFE73F00A9E4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1375868325BFE73F00A9E4A1 /* Main.storyboard */; };
+		1375868725BFE74B00A9E4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1375868625BFE74B00A9E4A1 /* Assets.xcassets */; };
+		2A7D5AE8793C42EAB000D075 /* Pods_TASwiftSuperMall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEB0944C0D3BD44AE28A32 /* Pods_TASwiftSuperMall.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D6B1DC52B6C556B6EC8A355 /* Pods-TASwiftSuperMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TASwiftSuperMall.debug.xcconfig"; path = "Target Support Files/Pods-TASwiftSuperMall/Pods-TASwiftSuperMall.debug.xcconfig"; sourceTree = "<group>"; };
+		1322B92925C1105A00E664D0 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		1322B92C25C135AC00E664D0 /* HomeListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListModel.swift; sourceTree = "<group>"; };
+		1322B92F25C13BB200E664D0 /* HomeHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		1322B93025C13BB200E664D0 /* HomeHeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		13301FD725C0112300EFDE25 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		13301FDB25C0133500EFDE25 /* TANetWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TANetWorkTool.swift; sourceTree = "<group>"; };
+		13301FDE25C0149800EFDE25 /* TANetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TANetworkingError.swift; sourceTree = "<group>"; };
+		13301FE125C01A0000EFDE25 /* TAMultipartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAMultipartData.swift; sourceTree = "<group>"; };
+		1331E54525C0059900887660 /* TASwiftSuperMall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TASwiftSuperMall-Bridging-Header.h"; sourceTree = "<group>"; };
+		1331E55A25C00CA100887660 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		134F1CF125C1040000ED7112 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		134F1CF525C104F700ED7112 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		134F1D0025C10C2300ED7112 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		134F1D0425C10C4300ED7112 /* CategroyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategroyViewController.swift; sourceTree = "<group>"; };
+		134F1D0925C10C8300ED7112 /* ShopCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCartViewController.swift; sourceTree = "<group>"; };
+		134F1D0D25C10C9900ED7112 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1375867A25BFE73F00A9E4A1 /* TASwiftSuperMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TASwiftSuperMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1375867D25BFE73F00A9E4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1375867F25BFE73F00A9E4A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1375868125BFE73F00A9E4A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1375868425BFE73F00A9E4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1375868625BFE74B00A9E4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1375868B25BFE74B00A9E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BEB0944C0D3BD44AE28A32 /* Pods_TASwiftSuperMall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TASwiftSuperMall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8716473087147B22722CBED /* Pods-TASwiftSuperMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TASwiftSuperMall.release.xcconfig"; path = "Target Support Files/Pods-TASwiftSuperMall/Pods-TASwiftSuperMall.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1375867725BFE73F00A9E4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7D5AE8793C42EAB000D075 /* Pods_TASwiftSuperMall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13301FD625C010E100EFDE25 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				13301FD725C0112300EFDE25 /* API.swift */,
+				13301FDB25C0133500EFDE25 /* TANetWorkTool.swift */,
+				13301FE125C01A0000EFDE25 /* TAMultipartData.swift */,
+				13301FDE25C0149800EFDE25 /* TANetworkingError.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		1331E55225C005D900887660 /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				1375868325BFE73F00A9E4A1 /* Main.storyboard */,
+				1375868625BFE74B00A9E4A1 /* Assets.xcassets */,
+				1331E55A25C00CA100887660 /* LaunchScreen.storyboard */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		1331E55325C005EF00887660 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1375867D25BFE73F00A9E4A1 /* AppDelegate.swift */,
+				1375867F25BFE73F00A9E4A1 /* SceneDelegate.swift */,
+				1375868125BFE73F00A9E4A1 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		134F1CEF25C1038000ED7112 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				134F1CF125C1040000ED7112 /* TabBarViewController.swift */,
+				1322B92925C1105A00E664D0 /* TabBar.swift */,
+				134F1CF525C104F700ED7112 /* NavigationViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		134F1CFE25C10BB700ED7112 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				134F1D1225C10D5100ED7112 /* View */,
+				134F1D1125C10D4B00ED7112 /* Model */,
+				134F1D1025C10D4200ED7112 /* VC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		134F1CFF25C10BE800ED7112 /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				134F1D0425C10C4300ED7112 /* CategroyViewController.swift */,
+			);
+			path = Categroy;
+			sourceTree = "<group>";
+		};
+		134F1D0725C10C4B00ED7112 /* ShopCart */ = {
+			isa = PBXGroup;
+			children = (
+				134F1D0925C10C8300ED7112 /* ShopCartViewController.swift */,
+			);
+			path = ShopCart;
+			sourceTree = "<group>";
+		};
+		134F1D0825C10C5400ED7112 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				134F1D0D25C10C9900ED7112 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		134F1D1025C10D4200ED7112 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				134F1D0025C10C2300ED7112 /* HomeViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		134F1D1125C10D4B00ED7112 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1322B92C25C135AC00E664D0 /* HomeListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		134F1D1225C10D5100ED7112 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1322B92F25C13BB200E664D0 /* HomeHeaderCollectionViewCell.swift */,
+				1322B93025C13BB200E664D0 /* HomeHeaderCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1375867125BFE73F00A9E4A1 = {
+			isa = PBXGroup;
+			children = (
+				1375867C25BFE73F00A9E4A1 /* TASwiftSuperMall */,
+				1375867B25BFE73F00A9E4A1 /* Products */,
+				ADF871934AFEF92C83BEF718 /* Pods */,
+				A451DA9971B8447A4702A8A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1375867B25BFE73F00A9E4A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1375867A25BFE73F00A9E4A1 /* TASwiftSuperMall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1375867C25BFE73F00A9E4A1 /* TASwiftSuperMall */ = {
+			isa = PBXGroup;
+			children = (
+				134F1D0825C10C5400ED7112 /* Profile */,
+				134F1D0725C10C4B00ED7112 /* ShopCart */,
+				134F1CFF25C10BE800ED7112 /* Categroy */,
+				134F1CFE25C10BB700ED7112 /* Home */,
+				134F1CEF25C1038000ED7112 /* Base */,
+				13301FD625C010E100EFDE25 /* NetWork */,
+				1331E55325C005EF00887660 /* Main */,
+				1331E55225C005D900887660 /* Resouce */,
+				1375868B25BFE74B00A9E4A1 /* Info.plist */,
+				1331E54525C0059900887660 /* TASwiftSuperMall-Bridging-Header.h */,
+			);
+			path = TASwiftSuperMall;
+			sourceTree = "<group>";
+		};
+		A451DA9971B8447A4702A8A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2BEB0944C0D3BD44AE28A32 /* Pods_TASwiftSuperMall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADF871934AFEF92C83BEF718 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D6B1DC52B6C556B6EC8A355 /* Pods-TASwiftSuperMall.debug.xcconfig */,
+				E8716473087147B22722CBED /* Pods-TASwiftSuperMall.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1375867925BFE73F00A9E4A1 /* TASwiftSuperMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1375868E25BFE74B00A9E4A1 /* Build configuration list for PBXNativeTarget "TASwiftSuperMall" */;
+			buildPhases = (
+				2FF8288492791DD26C4F439D /* [CP] Check Pods Manifest.lock */,
+				1375867625BFE73F00A9E4A1 /* Sources */,
+				1375867725BFE73F00A9E4A1 /* Frameworks */,
+				1375867825BFE73F00A9E4A1 /* Resources */,
+				793CA949DF5747680F236117 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TASwiftSuperMall;
+			productName = TASwiftSuperMall;
+			productReference = 1375867A25BFE73F00A9E4A1 /* TASwiftSuperMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1375867225BFE73F00A9E4A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1375867925BFE73F00A9E4A1 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 1375867525BFE73F00A9E4A1 /* Build configuration list for PBXProject "TASwiftSuperMall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1375867125BFE73F00A9E4A1;
+			productRefGroup = 1375867B25BFE73F00A9E4A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1375867925BFE73F00A9E4A1 /* TASwiftSuperMall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1375867825BFE73F00A9E4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1322B93225C13BB200E664D0 /* HomeHeaderCollectionViewCell.xib in Resources */,
+				1331E55B25C00CA100887660 /* LaunchScreen.storyboard in Resources */,
+				1375868725BFE74B00A9E4A1 /* Assets.xcassets in Resources */,
+				1375868525BFE73F00A9E4A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FF8288492791DD26C4F439D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TASwiftSuperMall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		793CA949DF5747680F236117 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TASwiftSuperMall/Pods-TASwiftSuperMall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TASwiftSuperMall/Pods-TASwiftSuperMall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TASwiftSuperMall/Pods-TASwiftSuperMall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1375867625BFE73F00A9E4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1322B92D25C135AC00E664D0 /* HomeListModel.swift in Sources */,
+				134F1CF225C1040000ED7112 /* TabBarViewController.swift in Sources */,
+				1375868225BFE73F00A9E4A1 /* ViewController.swift in Sources */,
+				1375867E25BFE73F00A9E4A1 /* AppDelegate.swift in Sources */,
+				134F1CF625C104F700ED7112 /* NavigationViewController.swift in Sources */,
+				13301FE225C01A0000EFDE25 /* TAMultipartData.swift in Sources */,
+				134F1D0125C10C2300ED7112 /* HomeViewController.swift in Sources */,
+				134F1D0A25C10C8300ED7112 /* ShopCartViewController.swift in Sources */,
+				13301FD825C0112300EFDE25 /* API.swift in Sources */,
+				13301FDF25C0149800EFDE25 /* TANetworkingError.swift in Sources */,
+				134F1D0525C10C4300ED7112 /* CategroyViewController.swift in Sources */,
+				134F1D0E25C10C9900ED7112 /* ProfileViewController.swift in Sources */,
+				13301FDC25C0133500EFDE25 /* TANetWorkTool.swift in Sources */,
+				1375868025BFE73F00A9E4A1 /* SceneDelegate.swift in Sources */,
+				1322B93125C13BB200E664D0 /* HomeHeaderCollectionViewCell.swift in Sources */,
+				1322B92A25C1105A00E664D0 /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1375868325BFE73F00A9E4A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1375868425BFE73F00A9E4A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1375868C25BFE74B00A9E4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1375868D25BFE74B00A9E4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1375868F25BFE74B00A9E4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6B1DC52B6C556B6EC8A355 /* Pods-TASwiftSuperMall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TASwiftSuperMall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tian.TASwiftSuperMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TASwiftSuperMall/TASwiftSuperMall-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1375869025BFE74B00A9E4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8716473087147B22722CBED /* Pods-TASwiftSuperMall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TASwiftSuperMall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tian.TASwiftSuperMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TASwiftSuperMall/TASwiftSuperMall-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1375867525BFE73F00A9E4A1 /* Build configuration list for PBXProject "TASwiftSuperMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1375868C25BFE74B00A9E4A1 /* Debug */,
+				1375868D25BFE74B00A9E4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1375868E25BFE74B00A9E4A1 /* Build configuration list for PBXNativeTarget "TASwiftSuperMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1375868F25BFE74B00A9E4A1 /* Debug */,
+				1375869025BFE74B00A9E4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1375867225BFE73F00A9E4A1 /* Project object */;
+}
