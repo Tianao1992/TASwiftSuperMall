@@ -7,6 +7,7 @@
 
 import UIKit
 
+import IQKeyboardManagerSwift
 class HomeViewController: UIViewController {
       
     // 轮播图数据源
@@ -15,16 +16,34 @@ class HomeViewController: UIViewController {
     static var collectionViewID = "collectionViewID"
     var timer: Timer? = nil
     var currendindex = 0
-    
+    let textField  = UITextField()
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "首页"
         setColletionView()
-        loadData()
-
-        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(travelingCollectionView), userInfo: nil, repeats: true)
-        RunLoop.main.add(self.timer!, forMode: RunLoop.Mode.common)
         
+      
+        textField.frame = CGRect(x: 0, y: 100, width: 300, height: 40)
+       textField.backgroundColor = UIColor.white
+       textField.textAlignment = .center
+       textField.delegate = self
+       textField.autocorrectionType = .yes
+       if #available(iOS 12.0, *) {
+           textField.textContentType = UITextContentType.oneTimeCode
+       } else {
+           // Fallback on earlier versions
+       }
+       textField.keyboardType = UIKeyboardType.numberPad
+       self.view.addSubview(textField)
+        NotificationCenter.default.addObserver(self, selector: #selector(show(node:)), name:  UIResponder.keyboardWillShowNotification, object: nil)
+        
+        
+        
+//        loadData()
+//
+//        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(travelingCollectionView), userInfo: nil, repeats: true)
+//        RunLoop.main.add(self.timer!, forMode: RunLoop.Mode.common)
+//
     }
     
     func setColletionView() {
@@ -92,7 +111,28 @@ class HomeViewController: UIViewController {
     }
     
 }
+extension HomeViewController {
+  
+    
+    @objc private func show(node : Notification){
+//        print("软键盘弹起")
+//        if textField.keyboardType == .numberPad {
+//            return
+//        }
+//         textField.resignFirstResponder()
+//        self.textField.keyboardType = .numberPad
+//        self.textField.becomeFirstResponder()
+        
+    }
+ 
+}
 
+extension HomeViewController: UITextFieldDelegate {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool{
+        print("shouldChangeCharactersIn",string)
+        return true
+    }
+}
 
 extension HomeViewController: UICollectionViewDelegate {
    
